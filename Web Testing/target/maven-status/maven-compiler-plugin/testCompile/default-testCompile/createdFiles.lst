@@ -1,0 +1,10 @@
+starter/pages/EditPage.class
+starter/pages/CreatePage.class
+starter/stepdefinitions/EditABook.class
+starter/CucumberTestSuite.class
+starter/pages/MainPage.class
+starter/pages/DeleteQuestionPage.class
+starter/stepdefinitions/GotoInformationPage.class
+starter/stepdefinitions/CreateABook.class
+starter/pages/InformationPage.class
+starter/stepdefinitions/DeleteABook.class

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Edit Book" skipped="0" tests="3" time="7.5" timestamp="2024-06-28 09:52:55"><testcase name="I can edit a Book with Valid Data"/><testcase name="I cannot edit a Book with Missing Title"><failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">expected: &lt;true&gt; but was: &lt;false&gt;</failure><system-err>expected: &lt;true&gt; but was: &lt;false&gt;
+web.serenity.starter@1.0-SNAPSHOT/starter.stepdefinitions.CreateABook.anErrorOccurs(CreateABook.java:74)
+✽.An error occurs(file:///home/hafidz/Documents/Belajar/Alterra_Qualiry_Engineer/QE_Muhammad_Hafidz/Miniproject/Web%20Testing/src/test/resources/features/EditBook.feature:21)
+</system-err></testcase><testcase name="I cannot edit a Book with Missing Year"/></testsuite>

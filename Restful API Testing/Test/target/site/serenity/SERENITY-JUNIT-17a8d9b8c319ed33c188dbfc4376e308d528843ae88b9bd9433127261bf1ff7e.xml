@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Create Order API" skipped="0" tests="2" time="0.02" timestamp="2024-06-28 09:56:50"><testcase name="User creates an order with valid details"/><testcase name="User creates an order with invalid details"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+starter.user.Product.ResponseProduct.lambda$responseCode400$3(ResponseProduct.java:28)
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+starter.user.Product.ResponseProduct.responseCode400(ResponseProduct.java:28)
+starter.stepdefinitions.Product.P_CreateARating.IReceiveStatusCode400(P_CreateARating.java:35)
+</system-err></testcase></testsuite>
